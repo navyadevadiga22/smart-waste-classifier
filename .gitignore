@@ -218,3 +218,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project dataset - never upload raw images to GitHub
+data/
+garbage_dataset/
+*.zip
+
+# Trained model files
+*.pth
+*.pt
+*.onnx
+
+# Experiment outputs
+runs/
+outputs/
+checkpoints/
+
+# Credentials and API keys
+kaggle.json
+.env
